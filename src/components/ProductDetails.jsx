@@ -37,7 +37,6 @@ function ProductDetails() {
       </button>
 
       <div className="bg-white rounded-xl shadow-sm p-6 grid md:grid-cols-2 gap-8">
-        {/* Image */}
         <div className="flex items-center justify-center">
           <img
             src={product.image}
@@ -45,8 +44,6 @@ function ProductDetails() {
             className="h-64 object-contain"
           />
         </div>
-
-        {/* Content */}
         <div className="flex flex-col">
           <h1 className="text-2xl font-semibold mb-4">
             {product.title}
